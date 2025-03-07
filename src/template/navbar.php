@@ -15,6 +15,10 @@
 
 <body>
     <header>
+        <div class="top-header">
+            <img src="../images/icons/mail.svg" alt="email logo">
+            <a href=""></a>
+        </div>
         <div class=" container-left">
             <div class="logo">
                 <img src="../images/logos/PenWeb.png" alt="PenWeb logo">
