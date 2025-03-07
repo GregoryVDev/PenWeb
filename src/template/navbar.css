@@ -1,0 +1,163 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--colorBlack);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: var(--colorOrange);
+}
+
+.container-left {
+  display: flex;
+}
+
+#burger-menu {
+  cursor: pointer;
+  height: 35px;
+  width: 40px;
+  margin: 20px;
+  overflow: visible;
+  position: relative;
+  z-index: 10000;
+}
+
+#burger-menu svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--colorOrange);
+  transition: transform 0.3s ease-in-out;
+}
+
+#burger-menu.close svg {
+  transform: rotate(180deg);
+}
+
+#nav {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+#nav li a {
+  color: var(--colorWhite);
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: var(--robotoRegular);
+}
+
+.button-connection {
+  color: var(--colorWhite);
+  font-family: var(--robotoRegular);
+}
+
+.button-connection:hover {
+  color: var(--colorOrange);
+}
+
+.button-reservation {
+  border: 1px solid var(--colorBlack);
+  padding: 10px;
+  color: var(--colorBlack) !important;
+  background: var(--colorWhite);
+  font-family: var(--robotoRegular);
+  font-weight: 600;
+}
+
+.button-reservation:hover {
+  background: var(--colorOrange);
+}
+
+#nav li a:hover {
+  color: var(--colorOrange);
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+
+.container-reservation {
+  margin-left: 20px;
+}
+
+/* DESKTOP */
+
+@media all and (min-width: 1023px) {
+  header {
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  .logo {
+    margin-left: 75px;
+  }
+
+  #burger-menu {
+    display: none;
+  }
+
+  #nav {
+    display: flex;
+    gap: 30px;
+    visibility: visible;
+    opacity: 1;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    position: unset;
+    padding-top: 0;
+  }
+
+  .nav_list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  #nav li a {
+    margin-bottom: 0;
+    font-size: var(--fsize4);
+    color: var(--colorBlack);
+  }
+
+  .button-connection {
+    color: var(--colorBlack);
+  }
+
+  .container-buttons {
+    margin-right: 70px;
+  }
+
+  .button-connection {
+    font-size: var(--fsize4);
+  }
+
+  .button-reservation {
+    font-size: var(--fsize4);
+  }
+}
