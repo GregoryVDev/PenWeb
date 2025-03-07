@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="../template/navbar.css">
     <link rel="stylesheet" href="../template/footer.css">
     <link rel="stylesheet" href="../css/index.css">
-    <title>PulseFit</title>
+    <title>PenWeb</title>
 </head>
 
 <body>
     <header>
         <div class="top-header">
             <img src="../images/icons/mail.svg" alt="email logo">
-            <a href=""></a>
+            <a href="mailto:contact@gmail.com">contact@gmail.com</a>
         </div>
         <div class=" container-left">
             <div class="logo">
