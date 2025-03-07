@@ -33,9 +33,10 @@
             <ul class="nav_list">
                 <li><a href="../index.php">Accueil</a></li>
                 <li><a href="#">A propos</a></li>
-                <li><a href="../reviews.php">Services</a></li>
-                <li><a href="../connexion.php">Formules</a></li>
-                <li><a href="../inscription.php">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Formules</a></li>
+                <li><a href="#">Avantages</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
     </header>

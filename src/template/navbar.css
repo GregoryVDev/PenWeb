@@ -1,0 +1,10 @@
+.top-header {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border-bottom: 1px solid var(--colorGreen);
+}
+
+.logo img {
+  height: 50px;
+}
