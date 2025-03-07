@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -18,7 +17,7 @@
     <header>
         <div class=" container-left">
             <div class="logo">
-                <h1>PulseFit</h1>
+                <img src="../images/logos/PenWeb.png" alt="PenWeb logo">
             </div>
         </div>
         <div id="burger-menu">
