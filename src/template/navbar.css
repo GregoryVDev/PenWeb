@@ -15,6 +15,10 @@ header {
   height: 50px;
 }
 
+.container-left {
+  display: flex;
+}
+
 #burger-menu {
   cursor: pointer;
   height: 35px;
@@ -33,6 +37,7 @@ header {
 
 #burger-menu.close svg {
   transform: rotate(180deg);
+  color: var(--colorWhite);
 }
 
 #nav {

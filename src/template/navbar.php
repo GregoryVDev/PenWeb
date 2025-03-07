@@ -32,17 +32,17 @@
                     <line x1="5" y1="17" x2="19" y2="17" />
                 </g>
             </svg>
-
-            <nav id="nav">
-                <ul class="nav_list">
-                    <li><a href="../index.php">Accueil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Formules</a></li>
-                    <li><a href="#">Avantages</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </nav>
+        </div>
+        <nav id="nav">
+            <ul class="nav_list">
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Formules</a></li>
+                <li><a href="#">Avantages</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
     </header>
 </body>
 <script src="../js/burger.js"></script>
