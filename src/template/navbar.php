@@ -26,12 +26,13 @@
         </div>
         <div id="burger-menu">
             <svg width="40" height="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="black" stroke-width="1.5" stroke-linecap="round" stroke="var(--colorBlue)">
+                <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
                     <line x1="5" y1="7" x2="19" y2="7" />
                     <line x1="7" y1="12" x2="17" y2="12" />
                     <line x1="5" y1="17" x2="19" y2="17" />
                 </g>
             </svg>
+
         </div>
         <nav id="nav">
             <ul class="nav_list">
