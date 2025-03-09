@@ -38,6 +38,10 @@
   list-style: none;
 }
 
+body {
+  font-family: var(--robotoRegular);
+}
+
 a {
   text-decoration: none;
 }

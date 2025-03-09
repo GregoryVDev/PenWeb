@@ -60,9 +60,17 @@
 }
 
 .service img {
+  width: 200px;
   height: 200px;
+  object-fit: cover;
 }
 
 .service figure {
   text-align: center;
+}
+
+.service figure figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

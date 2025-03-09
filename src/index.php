@@ -31,5 +31,59 @@
                 </figcaption>
             </figure>
         </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/responsive.png" alt="Responsive">
+                <figcaption>
+                    <h3>Site internet Responsive</h3>
+                    <p>Nos sites sont adaptés à tous types d'appareils pour une expérience optimale.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/seo.png" alt="Référencement SEO">
+                <figcaption>
+                    <h3>Référencement SEO</h3>
+                    <p>Chaque projet est optimisé pour le référencement SEO afin d'attirer plus de visiteurs.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/backend.png" alt="Outil d'automatisation">
+                <figcaption>
+                    <h3>Outil d'automatisation</h3>
+                    <p>Chaque projet est optimisé pour le référencement SEO afin d'attirer plus de visiteurs.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Hébergement</h3>
+                    <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="service">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Maintenance des sites et serveurs</h3>
+                    <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
+                </figcaption>
+            </figure>
+        </article>
     </section>
 </main>
