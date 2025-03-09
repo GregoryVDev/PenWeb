@@ -60,7 +60,7 @@
         </article>
         <article class="service">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Intelligence Artificielle">
                 <figcaption>
                     <h3>Intelligence Artificielle</h3>
                     <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
