@@ -69,7 +69,7 @@
         </article>
         <article class="service">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/hebergement.png" alt="Hébergement du site web">
                 <figcaption>
                     <h3>Hébergement</h3>
                     <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
