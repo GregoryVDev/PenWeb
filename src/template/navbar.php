@@ -21,7 +21,9 @@
     <header>
         <div class=" container-left">
             <div class="logo">
-                <img src="../images/logos/PenWeb.png" alt="PenWeb logo">
+                <a href="../index.php">
+                    <img src="../images/logos/PenWeb.png" alt="PenWeb logo">
+                </a>
             </div>
         </div>
         <div id="burger-menu">

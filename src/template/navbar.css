@@ -75,6 +75,10 @@ header {
   font-family: var(--robotoRegular);
 }
 
+#nav li a:hover {
+  color: var(--colorGreen);
+}
+
 /* DESKTOP */
 
 @media all and (min-width: 1023px) {
