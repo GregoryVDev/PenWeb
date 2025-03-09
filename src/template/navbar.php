@@ -39,8 +39,6 @@
                 <li><a href="../index.php">Accueil</a></li>
                 <li><a href="#">A propos</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Formules</a></li>
-                <li><a href="#">Avantages</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
