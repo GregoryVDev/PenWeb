@@ -95,6 +95,10 @@
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                        <div class="container-buttons">
+                            <button><a href="#">En savoir plus</a></button>
+                            <button><a href="#">Faire un devis</a></button>
+                        </div>
                     </figcaption>
                 </figure>
             </article>
@@ -104,6 +108,10 @@
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                        <div class="container-buttons">
+                            <button><a href="#">En savoir plus</a></button>
+                            <button><a href="#">Faire un devis</a></button>
+                        </div>
                     </figcaption>
                 </figure>
             </article>
@@ -113,9 +121,14 @@
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                        <div class="container-buttons">
+                            <button><a href="#">En savoir plus</a></button>
+                            <button><a href="#">Faire un devis</a></button>
+                        </div>
                     </figcaption>
                 </figure>
             </article>
         </div>
     </section>
+    <section class="option"></section>
 </main>
