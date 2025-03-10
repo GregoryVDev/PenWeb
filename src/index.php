@@ -247,7 +247,11 @@
     <section class="faq">
         <h2>F.A.Q</h2>
         <p>Les questions les plus posées pour la confection d'un site internet.</p>
-
+        <p>Pourquoi ai-je besoin d'un site internet ?</p>
+        <p>Combien coûte la création d'un site web </p>
+        <p>Quel est le prix d'un site clé en main vs un site sur mesure ?</p>
+        <p>Mon site sera-t-il optimisé pour l'affichage sur mobile et tablette ?</p>
+        <p>Le nom de domaine et de l'hébergement sont-ils inclus ?</p>
     </section>
 
 </main>
