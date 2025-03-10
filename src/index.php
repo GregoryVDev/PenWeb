@@ -130,5 +130,16 @@
             </article>
         </div>
     </section>
-    <section class="option"></section>
+    <section class="options">
+        <h2>Nos options disponibles pour la création de votre site internet</h2>
+        <article class="option">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Création de site web</h3>
+                    <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
 </main>
