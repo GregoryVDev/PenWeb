@@ -78,12 +78,44 @@
         </article>
         <article class="service">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/maintenance.png" alt="Maintenance">
                 <figcaption>
                     <h3>Maintenance des sites et serveurs</h3>
                     <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
                 </figcaption>
             </figure>
         </article>
+    </section>
+    <section class="prices">
+        <h2>Tarifs pour la création de votre site web personnalisé.</h2>
+        <div class="container-prices">
+            <article class="tarif">
+                <figure>
+                    <figcaption>
+                        <h3>Site internet vitrine professionnel</h3>
+                        <p>Tarif sur devis</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="tarif">
+                <figure>
+                    <figcaption>
+                        <h3>Site internet vitrine professionnel</h3>
+                        <p>Tarif sur devis</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="tarif">
+                <figure>
+                    <figcaption>
+                        <h3>Site internet vitrine professionnel</h3>
+                        <p>Tarif sur devis</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
     </section>
 </main>
