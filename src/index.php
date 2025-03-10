@@ -194,5 +194,60 @@
         </article>
         <button><a href="#">Avoir un devis gratuit</a></button>
     </section>
+    <section class="avantages">
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>Gain d'argent</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>L'image de marque</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>Nouveaux clients</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            </figure>
+            </figcaption>
+        </article>
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>Consultables</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            </figure>
+            </figcaption>
+        </article>
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>Se démarquer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            </figure>
+            </figcaption>
+        </article>
+        <article class="avantage">
+            <figure>
+                <figcaption>
+                    <h3>Se démarquer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            </figure>
+            </figcaption>
+        </article>
+    </section>
+    <section class="faq">
+        <h2>F.A.Q</h2>
+        <p>Les questions les plus posées pour la confection d'un site internet.</p>
+
+    </section>
 
 </main>
