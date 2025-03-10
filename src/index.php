@@ -136,10 +136,63 @@
             <figure>
                 <img src="./images/logos/creation.png" alt="Création site web">
                 <figcaption>
-                    <h3>Création de site web</h3>
-                    <p>Nous réalisons des sites vitrines, sites e-commerce ou sur-mesure.</p>
+                    <h3>Newsletter</h3>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="option">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Protection reCAPTCHA</h3>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="option">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Fonctionnalités e-commerce</h3>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="option">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Gestion de la traduction du site</h3>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="option">
+            <figure>
+                <img src="./images/logos/creation.png" alt="Création site web">
+                <figcaption>
+                    <h3>Système de réservation</h3>
                 </figcaption>
             </figure>
         </article>
     </section>
+    <section class="confiance">
+        <article class="ecoute">
+            <figure>
+                <img src="./images/ecoute.jpg" alt="Ecoute">
+                <figcaption>Un interlocuteur à votre écoute</figcaption>
+            </figure>
+        </article>
+        <article class="joignable">
+            <figure>
+                <img src="./images/phone.jpg" alt="Joignable">
+                <figcaption>Un interlocuteur toujours joignable</figcaption>
+            </figure>
+        </article>
+        <article class="professionnel">
+            <figure>
+                <img src="./images/pc.jpg" alt="Professionnel">
+                <figcaption>Un service complet et professionnel</figcaption>
+            </figure>
+        </article>
+        <button><a href="#">Avoir un devis gratuit</a></button>
+    </section>
+
 </main>
