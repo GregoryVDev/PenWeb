@@ -1,7 +1,7 @@
 /* GENERAL */
 
 footer {
-  background: var(--colorBlack);
+  background: #3e3e3e;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -21,10 +21,8 @@ footer h3 {
   margin-bottom: 25px;
 }
 
-footer h2 {
-  font-size: var(--fsize3);
-  color: var(--colorOrange);
-  text-align: center;
+.container-logo img {
+  width: 200px;
 }
 
 /* CONTAINER UL */
@@ -89,7 +87,7 @@ footer ul li a:hover {
 
 .footer-bottom {
   border-top: 1px solid var(--colorWhite);
-  background: var(--colorBlack);
+  background: #3e3e3e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,6 +98,10 @@ footer ul li a:hover {
 .politiques {
   line-height: 25px;
   text-align: center;
+}
+
+.container-work a {
+  color: var(--colorWhite);
 }
 
 .footer-bottom a {
