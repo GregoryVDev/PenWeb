@@ -63,7 +63,6 @@ footer ul li a:hover {
 .container-support p {
   color: var(--colorWhite);
   line-height: 25px;
-  margin-left: 22px;
 }
 
 /* CONTAINER WORK */
@@ -114,6 +113,11 @@ footer ul li a:hover {
 
 /* TABLET FOOTER BOTTOM */
 @media all and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    gap: 15px;
+  }
+
   .politiques {
     display: flex;
     gap: 15px;
