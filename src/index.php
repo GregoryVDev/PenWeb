@@ -177,19 +177,25 @@
         <article class="ecoute">
             <figure>
                 <img src="./images/ecoute.jpg" alt="Ecoute">
-                <figcaption>Un interlocuteur à votre écoute</figcaption>
+                <figcaption>
+                    <h3>Un interlocuteur à votre écoute</h3>
+                </figcaption>
             </figure>
         </article>
         <article class="joignable">
             <figure>
                 <img src="./images/phone.jpg" alt="Joignable">
-                <figcaption>Un interlocuteur toujours joignable</figcaption>
+                <figcaption>
+                    <h3>Un interlocuteur toujours joignable</h3>
+                </figcaption>
             </figure>
         </article>
         <article class="professionnel">
             <figure>
                 <img src="./images/pc.jpg" alt="Professionnel">
-                <figcaption>Un service complet et professionnel</figcaption>
+                <figcaption>
+                    <h3>Un service complet et professionnel</h3>
+                </figcaption>
             </figure>
         </article>
         <button><a href="#">Avoir un devis gratuit</a></button>
