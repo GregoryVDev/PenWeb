@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../template/navbar.css">
-    <link rel="stylesheet" href="../template/footer.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <title>PenWeb</title>
-</head>
-
-<body>
     <footer>
         <div class="container-logo">
             <img src="../images/logos/penwebtrans.png" alt="Logo entreprise">
@@ -39,8 +23,7 @@
     <div class="footer-bottom">
         <p><a href="#">© 2025 - Grégory</a></p>
     </div>
-</body>
-<script src="../js/burger.js"></script>
-<script src="../js/carousel.js"></script>
+    </body>
+    <script src="../js/burger.js"></script>
 
-</html>
+    </html>

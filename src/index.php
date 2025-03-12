@@ -253,5 +253,7 @@
         <p>Mon site sera-t-il optimisé pour l'affichage sur mobile et tablette ?</p>
         <p>Le nom de domaine et de l'hébergement sont-ils inclus ?</p>
     </section>
-
 </main>
+<?php
+include "./template/footer.php"
+?>
