@@ -82,3 +82,13 @@
 .option figure img {
   width: 100%;
 }
+
+figcaption h3 {
+  text-align: center;
+}
+
+.confiance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
