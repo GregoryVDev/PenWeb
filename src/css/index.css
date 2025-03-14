@@ -92,6 +92,15 @@
   background: var(--colorWhite);
 }
 
+.tarif p:nth-of-type(1) {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tarif img {
+  width: 100%;
+}
+
 .option figure img {
   width: 100%;
 }

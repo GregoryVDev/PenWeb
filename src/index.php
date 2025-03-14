@@ -91,6 +91,7 @@
         <div class="container-prices">
             <article class="tarif">
                 <figure>
+                    <img src="./images/logos/maintenance.png" alt="Maintenance">
                     <figcaption>
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
@@ -104,6 +105,7 @@
             </article>
             <article class="tarif">
                 <figure>
+                    <img src="./images/logos/maintenance.png" alt="Maintenance">
                     <figcaption>
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
@@ -117,6 +119,7 @@
             </article>
             <article class="tarif">
                 <figure>
+                    <img src="./images/logos/maintenance.png" alt="Maintenance">
                     <figcaption>
                         <h3>Site internet vitrine professionnel</h3>
                         <p>Tarif sur devis</p>
