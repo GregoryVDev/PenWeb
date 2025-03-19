@@ -56,6 +56,10 @@
   color: var(--colorWhite);
 }
 
+.services {
+  margin-bottom: 30px;
+}
+
 .service img {
   width: 200px;
   height: 200px;
@@ -99,6 +103,10 @@
 
 .tarif img {
   width: 100%;
+}
+
+.tarif figcaption {
+  padding: 0 20px;
 }
 
 .option figure img {
