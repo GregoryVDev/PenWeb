@@ -194,13 +194,13 @@ figcaption h3 {
 
 details {
   background: #fff;
-  border-radius: 10px; /* Coins arrondis */
+  border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
-  overflow: hidden; /* Empêche la sortie du texte */
-  padding: 0; /* Supprime le padding */
+  overflow: hidden;
+  padding: 0;
   transition: all 0.3s ease;
-  border: 1px solid #ddd; /* Bordure légère */
+  border: 1px solid #ddd;
 }
 
 details[open] {
