@@ -177,6 +177,7 @@
         </article>
     </section>
     <section class="confiance">
+        <h2>Faites-nous confiance dès maintenant !</h2>
         <article class="ecoute">
             <figure>
                 <img src="./images/ecoute.jpg" alt="Ecoute">
