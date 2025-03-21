@@ -158,6 +158,8 @@ figcaption h3 {
   flex-direction: column;
   align-items: center;
   background: var(--colorBlue);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .confiance h2 {
@@ -185,6 +187,10 @@ figcaption h3 {
   padding: 10px 15px;
   border-radius: 5px;
   text-align: center;
+}
+
+.confiance .devis-button {
+  margin-top: 30px;
 }
 
 .faq-container {

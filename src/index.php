@@ -202,7 +202,7 @@
                 </figcaption>
             </figure>
         </article>
-        <button><a href="#">Avoir un devis gratuit</a></button>
+        <button class="devis-button"><a href="#">Avoir un devis gratuit</a></button>
     </section>
     <section class="avantages">
         <article class="avantage">
