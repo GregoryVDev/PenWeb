@@ -150,6 +150,7 @@
 
 figcaption h3 {
   text-align: center;
+  width: 300px;
 }
 
 .confiance {
@@ -163,8 +164,27 @@ figcaption h3 {
   color: var(--colorWhite);
 }
 
-.confiance img {
+.confiance figure img {
   width: 100%;
+  filter: brightness(90%);
+}
+
+.confiance figure {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confiance figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--colorWhite);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .faq-container {
