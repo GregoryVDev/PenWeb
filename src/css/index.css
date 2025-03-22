@@ -150,7 +150,6 @@
 
 figcaption h3 {
   text-align: center;
-  width: 300px;
 }
 
 .confiance {
@@ -189,8 +188,20 @@ figcaption h3 {
   text-align: center;
 }
 
+.confiance h3 {
+  width: 200px;
+}
+
 .confiance .devis-button {
   margin-top: 30px;
+}
+
+.avantage figure img {
+  width: 100%;
+}
+
+.avantage figcaption p {
+  text-align: center;
 }
 
 .faq-container {

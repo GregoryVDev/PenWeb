@@ -207,6 +207,7 @@
     <section class="avantages">
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>Gain d'argent</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -215,6 +216,7 @@
         </article>
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>L'image de marque</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -223,6 +225,7 @@
         </article>
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>Nouveaux clients</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -231,6 +234,7 @@
         </article>
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>Consultables</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -239,6 +243,7 @@
         </article>
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>Se démarquer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -247,6 +252,7 @@
         </article>
         <article class="avantage">
             <figure>
+                <img src="./images/logos/responsive.png" alt="">
                 <figcaption>
                     <h3>Se démarquer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
@@ -258,8 +264,8 @@
         <h2>F.A.Q</h2>
         <div class="faq-container">
             <details>
-                <summary>Comment fonctionne cette FAQ ?</summary>
-                <p>Tu cliques sur la question et la réponse s'affiche automatiquement.</p>
+                <summary>Quel est le délai de réalisation d'un site web sur mesure ?</summary>
+                <p>Nous proposons la création de site internet clé en main avec une livraison sous 10 à 15 jours. Notre option express propose la livraison de votre site web sous 72h pour les projets urgents.</p>
             </details>
 
             <details>
