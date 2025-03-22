@@ -137,7 +137,7 @@
         <h2>Nos options disponibles pour la création de votre site internet</h2>
         <article class="option">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Création site web">
                 <figcaption>
                     <h3>Newsletter</h3>
                 </figcaption>
@@ -145,7 +145,7 @@
         </article>
         <article class="option">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Création site web">
                 <figcaption>
                     <h3>Protection reCAPTCHA</h3>
                 </figcaption>
@@ -153,7 +153,7 @@
         </article>
         <article class="option">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Création site web">
                 <figcaption>
                     <h3>Fonctionnalités e-commerce</h3>
                 </figcaption>
@@ -161,7 +161,7 @@
         </article>
         <article class="option">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Création site web">
                 <figcaption>
                     <h3>Gestion de la traduction du site</h3>
                 </figcaption>
@@ -169,7 +169,7 @@
         </article>
         <article class="option">
             <figure>
-                <img src="./images/logos/creation.png" alt="Création site web">
+                <img src="./images/logos/chatbot.png" alt="Création site web">
                 <figcaption>
                     <h3>Système de réservation</h3>
                 </figcaption>

@@ -110,8 +110,17 @@
   padding: 0 5px 20px;
 }
 
+.option {
+  margin: 20px 0;
+}
+
 .option figure {
   margin-bottom: 30px;
+  border: 1px solid var(--colorGreen);
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .option figure img {
