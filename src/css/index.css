@@ -248,3 +248,22 @@ details p {
   color: #333;
   font-weight: bold;
 }
+
+@media all and (min-width: 480px) {
+  .illustration {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .illustration img {
+    width: 230px;
+  }
+
+  .container-text {
+    width: 52%;
+  }
+
+  .container-img {
+    width: 25%;
+  }
+}
