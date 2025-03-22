@@ -97,6 +97,10 @@
   background: var(--colorWhite);
 }
 
+.tarif figcaption p {
+  text-align: center;
+}
+
 .tarif p:nth-of-type(1) {
   text-align: center;
   margin: 20px 0;
