@@ -97,10 +97,6 @@
   background: var(--colorWhite);
 }
 
-.tarif figcaption p {
-  text-align: center;
-}
-
 .tarif p:nth-of-type(1) {
   text-align: center;
   margin: 20px 0;
@@ -111,7 +107,7 @@
 }
 
 .tarif figcaption {
-  padding: 0 20px 20px;
+  padding: 0 5px 20px;
 }
 
 .option figure {
@@ -265,5 +261,13 @@ details p {
 
   .container-img {
     width: 25%;
+  }
+
+  .container-prices {
+    width: 400px;
+  }
+
+  .tarif figcaption {
+    padding: 0 10px 20px;
   }
 }
