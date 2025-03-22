@@ -42,7 +42,7 @@ header {
 
 #burger-menu.close svg {
   transform: rotate(180deg);
-  fill: #f5f5f5;
+  color: var(--colorWhite);
 }
 
 #nav {

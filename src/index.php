@@ -269,13 +269,13 @@
             </details>
 
             <details>
-                <summary>Ai-je besoin de JavaScript ?</summary>
-                <p>Non, ce design utilise seulement HTML & CSS.</p>
+                <summary>Mon site sera-t-il optimisé pour l'affichage sur mobile & tablette ?</summary>
+                <p>Le tarif d'un site web va dépendre majoritairement des fonctionnalités intégrées, du contenu éditorial et des prestations annexes réalisées.</p>
             </details>
 
             <details>
-                <summary>Puis-je personnaliser les couleurs ?</summary>
-                <p>Oui, il suffit de modifier les couleurs dans le CSS.</p>
+                <summary>Le nom de domaine et l'hébergement sont-ils inclus ?</summary>
+                <p>L'hébergement et le nom de domaine ne sont pas inclus dans le devis. Cependant, Penweb vous accompagne dans le choix d'une offre d'hébergement adaptée à votre projet.</p>
             </details>
         </div>
     </section>
