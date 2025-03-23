@@ -34,7 +34,6 @@
                     <line x1="5" y1="17" x2="19" y2="17" />
                 </g>
             </svg>
-
         </div>
         <nav id="nav">
             <ul class="nav_list">

@@ -279,4 +279,9 @@ details p {
   .tarif figcaption {
     padding: 0 10px 20px;
   }
+
+  .service {
+    width: 300px;
+    margin: auto;
+  }
 }
