@@ -214,7 +214,7 @@ figcaption h3 {
 }
 
 .faq-container {
-  max-width: 600px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -288,5 +288,9 @@ details p {
   .avantage {
     width: 300px;
     margin: auto;
+  }
+
+  .faq-container {
+    width: 460px;
   }
 }
