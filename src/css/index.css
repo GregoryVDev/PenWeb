@@ -296,8 +296,17 @@ details p {
 }
 
 @media all and (min-width: 768px) {
+  .container-about {
+    width: 500px;
+    margin: auto;
+  }
   .container-services {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .about img {
+    width: 500px;
+    margin: auto;
   }
 }
