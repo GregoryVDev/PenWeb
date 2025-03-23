@@ -294,3 +294,10 @@ details p {
     width: 460px;
   }
 }
+
+@media all and (min-width: 768px) {
+  .container-services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
