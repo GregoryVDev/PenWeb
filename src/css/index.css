@@ -261,7 +261,7 @@ details p {
   }
 
   .illustration img {
-    width: 230px;
+    width: 100%;
   }
 
   .container-text {
@@ -269,7 +269,7 @@ details p {
   }
 
   .container-img {
-    width: 25%;
+    width: 50%;
   }
 
   .container-prices {
@@ -296,6 +296,10 @@ details p {
 }
 
 @media all and (min-width: 768px) {
+  .illustration img {
+    width: 370px;
+  }
+
   .container-about {
     width: 500px;
     margin: auto;
