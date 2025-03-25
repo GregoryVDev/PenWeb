@@ -182,87 +182,91 @@
     </section>
     <section class="confiance">
         <h2>Faites-nous confiance dès maintenant !</h2>
-        <article class="ecoute">
-            <figure>
-                <img src="./images/ecoute.jpg" alt="Ecoute">
-                <figcaption>
-                    <h3>Un interlocuteur à votre écoute</h3>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="joignable">
-            <figure>
-                <img src="./images/phone.jpg" alt="Joignable">
-                <figcaption>
-                    <h3>Un interlocuteur toujours joignable</h3>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="professionnel">
-            <figure>
-                <img src="./images/pc.jpg" alt="Professionnel">
-                <figcaption>
-                    <h3>Un service complet et professionnel</h3>
-                </figcaption>
-            </figure>
-        </article>
+        <div class="container-confiance">
+            <article class="ecoute">
+                <figure>
+                    <img src="./images/ecoute.jpg" alt="Ecoute">
+                    <figcaption>
+                        <h3>Un interlocuteur à votre écoute</h3>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="joignable">
+                <figure>
+                    <img src="./images/phone.jpg" alt="Joignable">
+                    <figcaption>
+                        <h3>Un interlocuteur toujours joignable</h3>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="professionnel">
+                <figure>
+                    <img src="./images/pc.jpg" alt="Professionnel">
+                    <figcaption>
+                        <h3>Un service complet et professionnel</h3>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
         <button class="devis-button"><a href="#">Avoir un devis gratuit</a></button>
     </section>
     <section class="avantages">
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>Gain d'argent</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+        <div class="container-avantages">
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>Gain d'argent</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>L'image de marque</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>Nouveaux clients</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figure>
                 </figcaption>
-            </figure>
-        </article>
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>L'image de marque</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            </article>
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>Consultables</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figure>
                 </figcaption>
-            </figure>
-        </article>
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>Nouveaux clients</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-            </figure>
-            </figcaption>
-        </article>
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>Consultables</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-            </figure>
-            </figcaption>
-        </article>
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>Se démarquer</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-            </figure>
-            </figcaption>
-        </article>
-        <article class="avantage">
-            <figure>
-                <img src="./images/logos/responsive.png" alt="">
-                <figcaption>
-                    <h3>Se démarquer</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-            </figure>
-            </figcaption>
-        </article>
+            </article>
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>Se démarquer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figure>
+                </figcaption>
+            </article>
+            <article class="avantage">
+                <figure>
+                    <img src="./images/logos/responsive.png" alt="">
+                    <figcaption>
+                        <h3>Se démarquer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                </figure>
+                </figcaption>
+            </article>
+        </div>
     </section>
     <section class="faq">
         <h2>F.A.Q</h2>

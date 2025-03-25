@@ -209,6 +209,12 @@ figcaption h3 {
   width: 100%;
 }
 
+.avantage figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .avantage figcaption p {
   text-align: center;
 }
@@ -297,9 +303,23 @@ details p {
     margin: auto;
   }
 
+  .container-avantages {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .avantage {
     width: 300px;
     margin: auto;
+  }
+
+  .option {
+    margin: 20px auto;
+    width: 500px;
+  }
+
+  .container-confiance {
+    display: flex;
   }
 
   .faq-container {
@@ -338,7 +358,7 @@ details p {
     width: 255px;
   }
 
-  .confiance figure img {
-    width: 50%;
+  .container-confiance {
+    display: flex;
   }
 }
