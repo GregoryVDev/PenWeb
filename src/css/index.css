@@ -239,7 +239,7 @@ summary {
   cursor: pointer;
   outline: none;
   list-style: none;
-  border-radius: 10px; /* Ajout du border-radius ici */
+  border-radius: 10px;
 }
 
 summary:hover {
@@ -254,6 +254,8 @@ details p {
   font-weight: bold;
 }
 
+/* MOBILE */
+
 @media all and (min-width: 480px) {
   .illustration {
     flex-direction: row;
@@ -262,6 +264,16 @@ details p {
 
   .illustration img {
     width: 100%;
+  }
+
+  .container-about {
+    width: 500px;
+    margin: auto;
+  }
+
+  .about img {
+    width: 500px;
+    margin: auto;
   }
 
   .container-text {
@@ -295,6 +307,8 @@ details p {
   }
 }
 
+/* TABLET */
+
 @media all and (min-width: 768px) {
   .illustration img {
     width: 370px;
@@ -304,6 +318,7 @@ details p {
     width: 500px;
     margin: auto;
   }
+
   .container-services {
     display: flex;
     flex-wrap: wrap;
@@ -312,5 +327,18 @@ details p {
   .about img {
     width: 500px;
     margin: auto;
+  }
+
+  .container-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .option {
+    width: 255px;
+  }
+
+  .confiance figure img {
+    width: 50%;
   }
 }
