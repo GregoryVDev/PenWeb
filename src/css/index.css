@@ -205,6 +205,11 @@ figcaption h3 {
   margin-top: 30px;
 }
 
+.confiance .devis-button:hover {
+  background: var(--colorGreen);
+  border: 1px solid var(--colorBlue);
+}
+
 .avantage figure img {
   width: 100%;
 }

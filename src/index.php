@@ -142,7 +142,7 @@
                 <figure>
                     <img src="./images/logos/chatbot.png" alt="Création site web">
                     <figcaption>
-                        <h3>Newsletter</h3>
+                        <h3>Création d'une Newsletter</h3>
                     </figcaption>
                 </figure>
             </article>
