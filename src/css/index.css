@@ -371,3 +371,11 @@ details p {
     display: flex;
   }
 }
+
+/* DESKTOP */
+
+@media all and (min-width: 1200px) {
+  .faq-container {
+    width: 600px;
+  }
+}
