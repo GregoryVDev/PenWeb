@@ -288,7 +288,7 @@ details p {
   }
 
   .container-text {
-    width: 52%;
+    width: 50%;
   }
 
   .container-img {
@@ -335,6 +335,10 @@ details p {
 /* TABLET */
 
 @media all and (min-width: 768px) {
+  .illustration {
+    height: 40vh;
+  }
+
   .illustration img {
     width: 370px;
   }
