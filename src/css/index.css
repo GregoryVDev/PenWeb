@@ -378,4 +378,9 @@ details p {
   .faq-container {
     width: 600px;
   }
+
+  .container-prices {
+    width: 1110px;
+    flex-direction: row;
+  }
 }
