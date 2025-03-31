@@ -18,7 +18,8 @@
 }
 
 .illustration img {
-  width: 100%;
+  /* width: 100%; */
+  display: none;
 }
 
 .devis-button {
@@ -280,7 +281,7 @@ details p {
   }
 
   .illustration img {
-    width: 100%;
+    width: 90%;
   }
 
   .container-about {
@@ -293,12 +294,8 @@ details p {
     margin: auto;
   }
 
-  .container-text {
-    width: 100%;
-  }
-
   .container-prices {
-    width: 400px;
+    width: 360px;
   }
 
   .tarif figcaption {
@@ -322,11 +319,11 @@ details p {
 
   .option {
     margin: 20px auto;
-    width: 500px;
   }
 
   .container-confiance {
     display: flex;
+    flex-direction: column;
   }
 
   .faq-container {
@@ -341,13 +338,22 @@ details p {
     height: 40vh;
   }
 
-  .illustration img {
-    width: 370px;
+  .container-illustration {
+    flex-direction: row;
   }
 
   .container-about {
     width: 500px;
     margin: auto;
+  }
+
+  .container-img img {
+    display: block;
+  }
+
+  .container-text {
+    width: 485px;
+    padding: 35px;
   }
 
   .container-services {
@@ -376,7 +382,11 @@ details p {
 
 /* DESKTOP */
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1100px) {
+  .illustration img {
+    display: flex;
+  }
+
   .container-illustration {
     display: flex;
     align-items: center;
@@ -384,7 +394,7 @@ details p {
   }
 
   .container-img {
-    width: none;
+    width: 370px;
   }
 
   .faq-container {
