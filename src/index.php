@@ -1,13 +1,15 @@
 <?php include "./template/navbar.php" ?>
 <main>
     <section class="illustration">
-        <div class="container-text">
-            <h1>Sites Web professionnels sur-mesure</h1>
-            <p>Boostez votre présence en ligne avec notre agence web spécialisée. Nous concevons des sites internet modernes, performants et adaptés à vos besoins pour vous aider à exploiter tout le potentiel de votre marché.</p>
-            <button class="devis-button"><a href="#">Avoir un devis gratuit</a></button>
-        </div>
-        <div class="container-img">
-            <img src="./images/logos/computer.png" alt="Illustration computer">
+        <div class="container-illustration">
+            <div class="container-text">
+                <h1>Sites Web professionnels sur-mesure</h1>
+                <p>Boostez votre présence en ligne avec notre agence web spécialisée. Nous concevons des sites internet modernes, performants et adaptés à vos besoins pour vous aider à exploiter tout le potentiel de votre marché.</p>
+                <button class="devis-button"><a href="#">Avoir un devis gratuit</a></button>
+            </div>
+            <div class="container-img">
+                <img src="./images/logos/computer.png" alt="Illustration computer">
+            </div>
         </div>
     </section>
     <section class="about">
