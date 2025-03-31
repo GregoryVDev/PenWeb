@@ -278,12 +278,12 @@ details p {
   }
 
   .container-about {
-    width: 500px;
+    width: 100%;
     margin: auto;
   }
 
   .about img {
-    width: 500px;
+    width: 100%;
     margin: auto;
   }
 
