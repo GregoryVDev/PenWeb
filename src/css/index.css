@@ -273,6 +273,12 @@ details p {
     align-items: center;
   }
 
+  .container-illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .illustration img {
     width: 100%;
   }
@@ -288,11 +294,7 @@ details p {
   }
 
   .container-text {
-    width: 50%;
-  }
-
-  .container-img {
-    width: 50%;
+    width: 100%;
   }
 
   .container-prices {
@@ -382,7 +384,7 @@ details p {
   }
 
   .container-img {
-    width: 100%;
+    width: none;
   }
 
   .faq-container {
