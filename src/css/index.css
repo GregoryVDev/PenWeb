@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
 }
 
 .illustration p {
@@ -272,6 +273,7 @@ details p {
   .illustration {
     flex-direction: row;
     align-items: center;
+    height: 40vh;
   }
 
   .container-illustration {
@@ -377,12 +379,13 @@ details p {
 
   .container-confiance {
     display: flex;
+    flex-direction: row;
   }
 }
 
 /* DESKTOP */
 
-@media all and (min-width: 1100px) {
+@media all and (min-width: 1000px) {
   .illustration img {
     display: flex;
   }
@@ -402,7 +405,13 @@ details p {
   }
 
   .container-prices {
-    width: 1110px;
+    width: 900px;
     flex-direction: row;
+  }
+
+  .container-services {
+    width: 50%;
+    margin: auto;
+    gap: 10px;
   }
 }
