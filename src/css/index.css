@@ -371,6 +371,8 @@ details p {
   .container-options {
     display: flex;
     flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
   }
 
   .option {
@@ -413,5 +415,10 @@ details p {
     width: 50%;
     margin: auto;
     gap: 10px;
+  }
+
+  .container-avantages {
+    width: 50%;
+    margin: auto;
   }
 }
