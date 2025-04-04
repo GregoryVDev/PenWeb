@@ -429,9 +429,15 @@ details p {
   .container-info {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    max-width: 500px; /* ou la largeur souhaitée */
+    margin: auto;
   }
 
   .container-info img {
+    width: 100%;
+    height: auto;
+    display: block;
     transition: opacity 0.5s ease-in-out;
   }
 
@@ -451,6 +457,7 @@ details p {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    pointer-events: none; /* empêche d'interagir tant qu'invisible */
   }
 
   .container-info:hover img {
@@ -460,5 +467,6 @@ details p {
   .container-info:hover .container-about {
     opacity: 1;
     transform: translateY(0);
+    pointer-events: auto;
   }
 }
