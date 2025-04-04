@@ -428,45 +428,49 @@ details p {
 
   .container-info {
     position: relative;
-    overflow: hidden;
     width: 100%;
-    max-width: 500px; /* ou la largeur souhaitée */
+    max-width: 500px;
+    height: 400px; /* Ajuste la hauteur selon ton besoin */
     margin: auto;
+    perspective: 1000px; /* effet 3D */
+  }
+
+  .container-info img,
+  .container-about {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: transform 0.8s ease;
+    border-radius: 10px; /* optionnel pour les coins arrondis */
   }
 
   .container-info img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: opacity 0.5s ease-in-out;
+    object-fit: cover;
+    transform: rotateY(0deg);
+    z-index: 2;
   }
 
   .container-about {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background: var(--colorBlue);
+    color: var(--colorWhite);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 30px;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    pointer-events: none; /* empêche d'interagir tant qu'invisible */
+    transform: rotateY(180deg);
+    z-index: 1;
   }
 
   .container-info:hover img {
-    opacity: 0;
+    transform: rotateY(180deg);
   }
 
   .container-info:hover .container-about {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+    transform: rotateY(0deg);
   }
 }
