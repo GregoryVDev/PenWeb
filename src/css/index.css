@@ -481,20 +481,22 @@ details p {
   }
 
   .arrow-hint {
+    display: block;
     position: absolute;
     bottom: 10px;
     right: 15px;
-    font-size: 24px;
+    font-size: 28px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 4px 7px;
     border-radius: 50%;
     z-index: 3;
     pointer-events: none;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
+    transform: scaleX(1) scaleY(0.8); /* plus plate */
   }
 
   .container-info:hover .arrow-hint {
-    transform: rotate(180deg);
+    transform: scaleX(-1); /* effet miroir horizontal */
   }
 }

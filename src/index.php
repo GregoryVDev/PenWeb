@@ -16,7 +16,7 @@
         <h2>Qui sommes-nous ?</h2>
         <div class="container-info">
             <img src="./images/meeting.jpg" alt="Qui sommes-nous ?">
-            <div class="arrow-hint">&#x21bb;</div>
+            <div class="arrow-hint">&#x21B3;</div>
             <div class="container-about">
                 <h3>Transformez Vos Idées en Réalité Digitale</h3>
                 <p>Chez Penweb, nous sommes specialisé sur la référencement SEO, l'hébergement et création de sites web. Nous mettons notre expertise au service de votre réussite. Grâce à un travail précis et efficace.</p>
