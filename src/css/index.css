@@ -46,6 +46,10 @@
   flex-direction: column;
 }
 
+.arrow-hint {
+  display: none;
+}
+
 .container-about {
   background: var(--colorBlue);
   display: flex;
@@ -291,7 +295,7 @@ details p {
   }
 
   .container-about {
-    width: 100%;
+    width: 400px;
     margin: auto;
   }
 
@@ -472,5 +476,23 @@ details p {
 
   .container-info:hover .container-about {
     transform: rotateY(0deg);
+  }
+
+  .arrow-hint {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 8px;
+    border-radius: 50%;
+    z-index: 3;
+    pointer-events: none;
+    transition: transform 0.3s ease;
+  }
+
+  .container-info:hover .arrow-hint {
+    transform: rotate(180deg);
   }
 }
