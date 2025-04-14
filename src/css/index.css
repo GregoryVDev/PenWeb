@@ -299,6 +299,32 @@ figcaption h3 {
   border: 1px solid var(--colorBlue);
 }
 
+.avantage {
+  opacity: 0;
+  transform: translateX(
+    100%
+  ); /* L'élément est complètement à droite au départ */
+  transition: all 0.3s ease;
+}
+
+.avantage.visible {
+  animation: slideIn 0.6s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); /* Commence à 100% à droite */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Se déplace à sa position normale */
+  }
+}
+.avantage figure img {
+  width: 100%;
+}
+
 .avantage figure img {
   width: 100%;
 }
