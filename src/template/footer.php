@@ -25,5 +25,6 @@
     </div>
     </body>
     <script src="../js/burger.js"></script>
+    <script src="../js/animation.js"></script>
 
     </html>
