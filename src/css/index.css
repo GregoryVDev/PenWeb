@@ -299,6 +299,10 @@ figcaption h3 {
   border: 1px solid var(--colorBlue);
 }
 
+.avantages {
+  padding: 50px;
+}
+
 .avantage {
   opacity: 0;
   transform: translateX(
@@ -337,6 +341,15 @@ figcaption h3 {
 
 .avantage figcaption p {
   text-align: center;
+}
+
+.faq {
+  background: var(--colorBlue);
+  padding: 10px;
+}
+
+.faq h2 {
+  color: var(--colorWhite);
 }
 
 .faq-container {
