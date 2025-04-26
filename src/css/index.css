@@ -299,10 +299,6 @@ figcaption h3 {
   border: 1px solid var(--colorBlue);
 }
 
-.avantages {
-  padding: 50px;
-}
-
 .avantage {
   opacity: 0;
   transform: translateX(
@@ -346,6 +342,7 @@ figcaption h3 {
 .faq {
   background: var(--colorBlue);
   padding: 10px;
+  margin: 0;
 }
 
 .faq h2 {
@@ -533,12 +530,11 @@ details p {
   }
 
   .container-prices {
-    width: 900px;
+    width: 1000px;
     flex-direction: row;
   }
 
   .container-services {
-    width: 50%;
     margin: auto;
     gap: 10px;
   }
