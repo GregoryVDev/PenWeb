@@ -302,9 +302,7 @@ figcaption h3 {
 
 .avantage {
   opacity: 0;
-  transform: translateX(
-    100%
-  ); /* L'élément est complètement à droite au départ */
+  transform: translateY(50px); /* Départ vers le bas */
   transition: all 0.3s ease;
 }
 
@@ -315,11 +313,11 @@ figcaption h3 {
 @keyframes slideIn {
   0% {
     opacity: 0;
-    transform: translateX(100%); /* Commence à 100% à droite */
+    transform: translateY(50px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0); /* Se déplace à sa position normale */
+    transform: translateY(0);
   }
 }
 .avantage figure img {
