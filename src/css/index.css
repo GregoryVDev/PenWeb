@@ -615,4 +615,8 @@ details p {
     transform: scaleX(-1) scaleY(0.8);
     font-size: 25px; /* ajusté pour que ça paraisse identique visuellement */
   }
+
+  .confiance .container-confiance {
+    flex-direction: row;
+  }
 }
