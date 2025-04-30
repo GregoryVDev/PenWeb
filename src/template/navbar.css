@@ -79,6 +79,19 @@ header {
   color: var(--colorGreen);
 }
 
+.separator {
+  width: 2px;
+  height: 25px;
+  background-color: var(--colorGreen);
+  border-radius: 10px;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 /* DESKTOP */
 
 @media all and (min-width: 1023px) {

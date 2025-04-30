@@ -38,8 +38,11 @@
         <nav id="nav">
             <ul class="nav_list">
                 <li><a href="../index.php">Accueil</a></li>
+                <div class="separator"></div>
                 <li><a href="#">A propos</a></li>
+                <div class="separator"></div>
                 <li><a href="#">Services</a></li>
+                <div class="separator"></div>
                 <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
