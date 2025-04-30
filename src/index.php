@@ -188,7 +188,7 @@
         <div class="container-confiance">
             <article class="ecoute">
                 <figure>
-                    <img src="./images/ecoute.jpg" alt="Ecoute">
+                    <img src="./images/logos/chatbot.png" alt="Création site web">
                     <figcaption>
                         <h3>Un interlocuteur à votre écoute</h3>
                     </figcaption>
@@ -196,7 +196,7 @@
             </article>
             <article class="joignable">
                 <figure>
-                    <img src="./images/phone.jpg" alt="Joignable">
+                    <img src="./images/logos/chatbot.png" alt="Création site web">
                     <figcaption>
                         <h3>Un interlocuteur toujours joignable</h3>
                     </figcaption>
@@ -204,7 +204,7 @@
             </article>
             <article class="professionnel">
                 <figure>
-                    <img src="./images/pc.jpg" alt="Professionnel">
+                    <img src="./images/logos/chatbot.png" alt="Création site web">
                     <figcaption>
                         <h3>Un service complet et professionnel</h3>
                     </figcaption>
