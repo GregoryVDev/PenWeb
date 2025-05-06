@@ -414,12 +414,10 @@ details p {
 
   .container-about {
     width: 400px;
-    margin: auto;
   }
 
   .about img {
     width: 400px;
-    margin: auto;
   }
 
   .container-prices {
@@ -472,7 +470,6 @@ details p {
 
   .container-about {
     width: 500px;
-    margin: auto;
   }
 
   .container-img img {
@@ -491,7 +488,6 @@ details p {
 
   .about img {
     width: 500px;
-    margin: auto;
   }
 
   .container-options {
@@ -547,76 +543,20 @@ details p {
     margin: auto;
   }
 
-  .container-info {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    height: 400px; /* Ajuste la hauteur selon ton besoin */
-    margin: auto;
-    perspective: 1000px; /* effet 3D */
+  .confiance .container-confiance {
+    flex-direction: row;
   }
 
-  .container-info img,
-  .container-about {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    transition: transform 0.8s ease;
-    border-radius: 10px; /* optionnel pour les coins arrondis */
+  .container-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* pour aligner verticalement */
+    gap: 0; /* aucun espace entre l'image et le texte */
   }
 
   .container-info img {
-    object-fit: cover;
-    transform: rotateY(0deg);
-    z-index: 2;
-  }
-
-  .container-about {
-    background: var(--colorBlue);
-    color: var(--colorWhite);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 30px;
-    transform: rotateY(180deg);
-    z-index: 1;
-  }
-
-  .container-info:hover img {
-    transform: rotateY(180deg);
-  }
-
-  .container-info:hover .container-about {
-    transform: rotateY(0deg);
-  }
-
-  .arrow-hint {
+    max-width: 100%;
+    height: auto;
     display: block;
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    font-size: 25px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 4px 7px;
-    border-radius: 50%;
-    z-index: 3;
-    pointer-events: none;
-    transition: transform 0.5s ease;
-    transform: scaleX(1) scaleY(0.8); /* plus plate */
-  }
-
-  .container-info:hover .arrow-hint {
-    transform: scaleX(-1) scaleY(0.8);
-    font-size: 25px; /* ajusté pour que ça paraisse identique visuellement */
-  }
-
-  .confiance .container-confiance {
-    flex-direction: row;
   }
 }
