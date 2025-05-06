@@ -418,6 +418,8 @@ details p {
 
   .container-about {
     width: 400px;
+    justify-content: center;
+    gap: 50px;
   }
 
   .about img {
@@ -554,7 +556,7 @@ details p {
   .container-info {
     display: flex;
     flex-direction: row;
-    align-items: center; /* pour aligner verticalement */
+    align-items: unset; /* pour aligner verticalement */
     gap: 0; /* aucun espace entre l'image et le texte */
   }
 
