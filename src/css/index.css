@@ -183,6 +183,10 @@
   background: var(--colorBlue);
 }
 
+.options h2 {
+  color: var(--colorWhite);
+}
+
 .option {
   margin: 20px 0;
   opacity: 0;
@@ -201,6 +205,10 @@
   width: 60%;
   margin: auto;
   padding-bottom: 20px;
+}
+
+.option h3 {
+  color: var(--colorWhite);
 }
 
 .option figure img {
