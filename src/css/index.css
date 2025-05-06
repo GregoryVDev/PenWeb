@@ -272,21 +272,21 @@
   color: var(--colorWhite);
 }
 
-figcaption h3 {
+.option figcaption h3 {
   text-align: center;
+  color: var(--colorWhite);
 }
 
 .confiance {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--colorBlue);
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
 
 .confiance h2 {
-  color: var(--colorWhite);
+  color: var(--colorBlack);
 }
 
 .confiance .container-confiance {
@@ -318,6 +318,7 @@ figcaption h3 {
 
 .confiance .devis-button {
   margin-top: 30px;
+  background: var(--colorBlue);
 }
 
 .confiance .devis-button:hover {
