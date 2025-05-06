@@ -314,6 +314,7 @@
 
 .confiance h3 {
   width: 100%;
+  color: var(--colorBlack);
 }
 
 .confiance .devis-button {
