@@ -337,6 +337,10 @@
   transition: all 0.3s ease;
 }
 
+.avantage h3 {
+  text-align: center;
+}
+
 .avantage.visible {
   animation: slideIn 0.6s ease forwards;
 }
