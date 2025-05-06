@@ -412,6 +412,10 @@ details p {
     width: 90%;
   }
 
+  .container-info {
+    justify-content: center;
+  }
+
   .container-about {
     width: 400px;
   }
