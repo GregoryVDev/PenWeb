@@ -532,6 +532,7 @@ details p {
     flex-wrap: wrap;
     width: 50%;
     margin: auto;
+    padding-bottom: 30px;
   }
 
   .option {
