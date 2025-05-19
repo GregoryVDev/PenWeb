@@ -101,7 +101,7 @@
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                 </ul>
-                <button class="btn">Choose iOS Basics</button>
+                <button class="btn">Faire un devis</button>
             </div>
 
             <div class="pricing-card featured" onclick="selectCard(this)">
@@ -113,19 +113,19 @@
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                 </ul>
-                <button class="btn btn-blue">Choose Advanced iOS</button>
+                <button class="btn btn-blue">Faire un devis</button>
             </div>
 
             <div class="pricing-card" onclick="selectCard(this)">
                 <h3>Site E-commerce professionnel</h3>
                 <p class="price">Tarif sur devis</p>
                 <ul>
-                    <li>iOS, macOS, watchOS, tvOS</li>
-                    <li>Cross-Platform Integration</li>
-                    <li>1-Year Access</li>
-                    <li>Direct Expert Support</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                 </ul>
-                <button class="btn">Choose Ecosystem mater</button>
+                <button class="btn">Faire un devis</button>
             </div>
         </div>
     </section>
