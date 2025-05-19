@@ -94,31 +94,31 @@
         <h2>Tarifs pour la création de votre site web personnalisé.</h2>
         <div class="pricing-container">
             <div class="pricing-card" onclick="selectCard(this)">
-                <h3>iOS Basics</h3>
-                <p class="price">$99.99</p>
+                <h3>Site internet vitrine professionnel</h3>
+                <p class="price">Tarif sur devis</p>
                 <ul>
-                    <li>Introduction to Swift</li>
-                    <li>Basic App Development</li>
-                    <li>3-Month Access</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                 </ul>
                 <button class="btn">Choose iOS Basics</button>
             </div>
 
             <div class="pricing-card featured" onclick="selectCard(this)">
-                <h3>Advanced iOS</h3>
-                <p class="price">$199.99</p>
+                <h3>Site internet vitrine professionnel</h3>
+                <p class="price">Tarif sur devis</p>
                 <ul>
-                    <li>Advanced Swift Concepts</li>
-                    <li>Complex UI Design</li>
-                    <li>6-Month Access</li>
-                    <li>Access to Weekly Webinars</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, in.</li>
                 </ul>
-                <button class="btn">Choose Advanced iOS</button>
+                <button class="btn btn-blue">Choose Advanced iOS</button>
             </div>
 
             <div class="pricing-card" onclick="selectCard(this)">
-                <h3>Apple Ecosystem Mastery</h3>
-                <p class="price">$299.99</p>
+                <h3>Site E-commerce professionnel</h3>
+                <p class="price">Tarif sur devis</p>
                 <ul>
                     <li>iOS, macOS, watchOS, tvOS</li>
                     <li>Cross-Platform Integration</li>
