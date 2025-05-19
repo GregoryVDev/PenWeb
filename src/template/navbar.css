@@ -10,6 +10,10 @@
   color: var(--colorBlue);
 }
 
+.top-header a:hover {
+  color: var(--colorGreen);
+}
+
 header {
   display: flex;
   justify-content: space-around;
