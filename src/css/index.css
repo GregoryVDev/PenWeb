@@ -26,8 +26,10 @@
 
 .devis-button {
   border: 1px solid var(--colorGreen);
-  background: transparent;
-  padding: 10px;
+  background: var(--colorGreen);
+  padding: 12px 24px;
+  border: 1px solid var(--colorBlue);
+  border-radius: 8px;
 }
 
 .devis-button a {
@@ -35,7 +37,7 @@
 }
 
 .devis-button:hover {
-  background: var(--colorGreen);
+  background: #218838;
 }
 
 .about img {
@@ -462,14 +464,22 @@ ul li {
   color: var(--colorBlack);
 }
 
-.confiance .devis-button {
+.confiance .btn-confiance {
   margin-top: 30px;
   background: var(--colorBlue);
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 8px;
 }
 
-.confiance .devis-button:hover {
-  background: var(--colorGreen);
-  border: 1px solid var(--colorBlue);
+.confiance .btn-confiance:hover {
+  background: #064585;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.confiance .btn-confiance a {
+  color: var(--colorWhite);
 }
 
 .confiance figure img {
