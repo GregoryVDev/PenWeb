@@ -36,8 +36,8 @@ footer h3 {
 footer ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
   margin-bottom: 10px;
+  gap: 15px;
 }
 
 footer ul li a {
@@ -45,7 +45,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: var(--colorOrange);
+  color: var(--colorGreen);
 }
 
 /* CONTAINER SUPPORT */
@@ -65,11 +65,23 @@ footer ul li a:hover {
   line-height: 25px;
 }
 
+.container-support a {
+  color: var(--colorWhite);
+}
+
+.container-support a:hover {
+  color: var(--colorGreen);
+}
+
 /* CONTAINER WORK */
 
 .container-work {
   display: flex;
   flex-direction: column;
+}
+
+.container-work a:hover {
+  color: var(--colorGreen);
 }
 
 .container-work h3 {
@@ -108,7 +120,7 @@ footer ul li a:hover {
 }
 
 .footer-bottom a:hover {
-  color: var(--colorOrange);
+  color: var(--colorGreen);
 }
 
 /* TABLET FOOTER BOTTOM */

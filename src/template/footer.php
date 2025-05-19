@@ -11,7 +11,7 @@
             </ul>
         </div>
         <div class="container-support">
-            <p>contact@gmail.com</p>
+            <p><a href="mailto:contact@gmail.com">contact@gmail.com</a></p>
             <p>01 23 45 67 89</p>
         </div>
         <div class="container-work">

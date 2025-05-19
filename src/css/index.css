@@ -247,13 +247,13 @@
 }
 
 /* List Styles */
-ul {
+.prices ul {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-ul li {
+.prices ul li {
   margin: 10px 0;
   color: var(--colorBlack);
 }
@@ -289,13 +289,13 @@ ul li {
 }
 
 /* List Styles */
-ul {
+.prices ul {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-ul li {
+.prices ul li {
   margin: 10px 0;
   color: var(--colorBlack);
 }
@@ -851,13 +851,13 @@ details p {
   }
 
   /* List Styles */
-  ul {
+  .prices ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
   }
 
-  ul li {
+  .prices ul li {
     margin: 10px 0;
     color: var(--colorBlue);
   }
