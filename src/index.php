@@ -92,49 +92,41 @@
     </section>
     <section class="prices">
         <h2>Tarifs pour la création de votre site web personnalisé.</h2>
-        <div class="container-prices">
-            <article class="tarif">
-                <figure>
-                    <img src="./images/logos/maintenance.png" alt="Maintenance">
-                    <figcaption>
-                        <h3>Site internet vitrine professionnel</h3>
-                        <p>Tarif sur devis</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
-                        <div class="container-buttons">
-                            <button class="green"><a href="#">En savoir plus</a></button>
-                            <button class="blue"><a href="#">Faire un devis</a></button>
-                        </div>
-                    </figcaption>
-                </figure>
-            </article>
-            <article class="tarif">
-                <figure>
-                    <img src="./images/logos/maintenance.png" alt="Maintenance">
-                    <figcaption>
-                        <h3>Site internet vitrine professionnel</h3>
-                        <p>Tarif sur devis</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
-                        <div class="container-buttons">
-                            <button class="green"><a href="#">En savoir plus</a></button>
-                            <button class="blue"><a href="#">Faire un devis</a></button>
-                        </div>
-                    </figcaption>
-                </figure>
-            </article>
-            <article class="tarif">
-                <figure>
-                    <img src="./images/logos/maintenance.png" alt="Maintenance">
-                    <figcaption>
-                        <h3>Site internet vitrine professionnel</h3>
-                        <p>Tarif sur devis</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates soluta, animi ipsa corrupti deserunt inventore asperiores numquam esse vitae, blanditiis expedita perferendis facere quis aperiam aliquam, consectetur ea. Repudiandae rem debitis ipsa fugit minima alias nihil error obcaecati cum, recusandae quas nostrum adipisci aliquid repellendus voluptatum reprehenderit perspiciatis ut!</p>
-                        <div class="container-buttons">
-                            <button class="green"><a href="#">En savoir plus</a></button>
-                            <button class="blue"><a href="#">Faire un devis</a></button>
-                        </div>
-                    </figcaption>
-                </figure>
-            </article>
+        <div class="pricing-container">
+            <div class="pricing-card" onclick="selectCard(this)">
+                <h3>iOS Basics</h3>
+                <p class="price">$99.99</p>
+                <ul>
+                    <li>Introduction to Swift</li>
+                    <li>Basic App Development</li>
+                    <li>3-Month Access</li>
+                </ul>
+                <button class="btn">Choose iOS Basics</button>
+            </div>
+
+            <div class="pricing-card featured" onclick="selectCard(this)">
+                <h3>Advanced iOS</h3>
+                <p class="price">$199.99</p>
+                <ul>
+                    <li>Advanced Swift Concepts</li>
+                    <li>Complex UI Design</li>
+                    <li>6-Month Access</li>
+                    <li>Access to Weekly Webinars</li>
+                </ul>
+                <button class="btn">Choose Advanced iOS</button>
+            </div>
+
+            <div class="pricing-card" onclick="selectCard(this)">
+                <h3>Apple Ecosystem Mastery</h3>
+                <p class="price">$299.99</p>
+                <ul>
+                    <li>iOS, macOS, watchOS, tvOS</li>
+                    <li>Cross-Platform Integration</li>
+                    <li>1-Year Access</li>
+                    <li>Direct Expert Support</li>
+                </ul>
+                <button class="btn">Choose Ecosystem mater</button>
+            </div>
         </div>
     </section>
     <section class="options">
