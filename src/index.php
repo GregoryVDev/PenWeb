@@ -204,66 +204,6 @@
         </div>
         <button class="btn-confiance"><a href="#">Avoir un devis gratuit</a></button>
     </section>
-    <section class="carousel">
-        <div class="carousel-container">
-            <div class="carousel-track">
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>Gain d'argent</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>L'image de marque</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>Nouveaux clients</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>Consultables</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>Se démarquer</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img src="./images/logos/responsive.png" alt="">
-                        <figcaption>
-                            <h3>Se montrer</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="faq">
         <h2>F.A.Q</h2>
