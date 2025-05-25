@@ -682,16 +682,6 @@ details p {
     margin: auto;
   }
 
-  .container-avantages {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .avantage {
-    width: 260px;
-    margin: auto;
-  }
-
   .option {
     margin: 20px auto;
   }
