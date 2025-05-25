@@ -256,7 +256,7 @@
                     <figure>
                         <img src="./images/logos/responsive.png" alt="">
                         <figcaption>
-                            <h3>Se démarquer</h3>
+                            <h3>Se montrer</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </figcaption>
                     </figure>

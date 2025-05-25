@@ -1,64 +1,20 @@
 const track = document.querySelector(".carousel-track");
 const items = document.querySelectorAll(".carousel-item");
-const total = items.length;
-let index = 0;
-let startX = 0;
-let isDragging = false;
+const itemCount = items.length;
+const itemsPerSlide = 3;
+const gap = 20; // correspond à ton gap en CSS
+let currentIndex = 0;
 
-function showSlide(i) {
-  track.style.transform = `translateX(-${i * 100}%)`;
-}
+function slideCarousel() {
+  const itemWidth = items[0].offsetWidth + gap;
 
-function nextSlide() {
-  index = (index + 1) % total;
-  showSlide(index);
-}
-
-// Auto slide every 6 seconds
-let autoSlide = setInterval(nextSlide, 6000);
-
-// Swipe support
-track.addEventListener("touchstart", (e) => {
-  startX = e.touches[0].clientX;
-  isDragging = true;
-  clearInterval(autoSlide); // stop auto during swipe
-});
-
-track.addEventListener("touchend", (e) => {
-  if (!isDragging) return;
-  const endX = e.changedTouches[0].clientX;
-  const diff = startX - endX;
-
-  if (diff > 50) {
-    index = (index + 1) % total;
-  } else if (diff < -50) {
-    index = (index - 1 + total) % total;
+  currentIndex += itemsPerSlide;
+  if (currentIndex >= itemCount) {
+    currentIndex = 0;
   }
 
-  showSlide(index);
-  autoSlide = setInterval(nextSlide, 6000); // resume auto
-  isDragging = false;
-});
+  const offset = itemWidth * currentIndex;
+  track.style.transform = `translateX(-${offset}px)`;
+}
 
-// Optional: swipe with mouse (for desktop)
-track.addEventListener("mousedown", (e) => {
-  startX = e.clientX;
-  isDragging = true;
-  clearInterval(autoSlide);
-});
-
-track.addEventListener("mouseup", (e) => {
-  if (!isDragging) return;
-  const endX = e.clientX;
-  const diff = startX - endX;
-
-  if (diff > 50) {
-    index = (index + 1) % total;
-  } else if (diff < -50) {
-    index = (index - 1 + total) % total;
-  }
-
-  showSlide(index);
-  autoSlide = setInterval(nextSlide, 6000);
-  isDragging = false;
-});
+setInterval(slideCarousel, 6000); // change tous les 6 secondes

@@ -531,46 +531,62 @@
 /* TESTTTTTTTTTT */
 
 .carousel {
-  max-width: 400px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
 }
 
 .carousel-container {
-  overflow: hidden;
   width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
 }
 
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease;
+  gap: 20px;
+  padding: 0 0; /* plus de padding qui montre les suivants/precedents */
 }
 
 .carousel-item {
-  min-width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-}
-
-.carousel-item figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  flex: 0 0 calc(100% / 3 - 13.34px); /* 3 éléments par ligne avec gap pris en compte */
+  background: none;
+  text-align: center;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  box-shadow: none;
+  border: none;
+  width: calc(50% - 10px); /* 2 items par ligne avec 20px de gap */
 }
 
 .carousel-item img {
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
 }
 
-.carousel-item figcaption {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: center;
+.carousel-item h3 {
+  margin: 0;
+  font-size: 1.2em;
 }
+
+.carousel-item p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 100%; /* 1 seul visible sur mobile */
+  }
+}
+
 /* END TEST */
 
 .faq {
