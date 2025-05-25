@@ -528,8 +528,6 @@
   text-align: center;
 }
 
-/* TESTTTTTTTTTT */
-
 .carousel {
   width: 100%;
   display: flex;
@@ -586,8 +584,6 @@
     flex: 0 0 100%; /* 1 seul visible sur mobile */
   }
 }
-
-/* END TEST */
 
 .faq {
   background: var(--colorBlue);
